@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_open_screen"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_card"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/big_logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/main_card"
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:src="@drawable/slctr_main_about"
+                android:id="@+id/about"
+                android:onClick="goToAbout"
+                android:layout_marginTop="75dp"
+                android:layout_marginLeft="5dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/main_card"
+                />
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:src="@drawable/slctr_main_scores"
+                android:id="@+id/scores"
+                android:onClick="goToScores"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="5dp"/>
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:src="@drawable/slctr_main_credits"
+                android:onClick="goToCredits"
+                android:layout_marginTop="110dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/credits"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/main_card"
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="55dp"
+                android:src="@drawable/slctr_main_start"
+                android:id="@+id/start"
+                android:onClick="goToGame"
+                android:layout_marginTop="22dp"
+                android:layout_marginLeft="5dp"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="55dp"
+                android:src="@drawable/slctr_main_settings"
+                android:onClick="goToSettings"
+                android:layout_marginTop="75dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/settings"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="55dp"
+                android:src="@drawable/slctr_main_instructions"
+                android:onClick="goToInstructions"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/instructions"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="65dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:text="@string/open_text"
+            android:textSize="17dp"
+            android:textColor="@android:color/white"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

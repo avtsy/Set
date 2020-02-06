@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/bg_card"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/main_settings"
+        android:layout_gravity="center_horizontal"/>
+
+    <Switch
+        android:id="@+id/sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/sound"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:checked="false"
+        android:textColor="@color/settingsGrey"
+        android:background="@android:color/white"
+
+        />
+
+    <Switch
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/timer"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold"
+        android:checked="true"
+        android:background="@android:color/white"
+        />
+
+    <Switch
+        android:id="@+id/clue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/clues"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"
+        android:checked="true"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold"
+        android:background="@android:color/white"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="120dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/slctr_main_start"
+            android:id="@+id/imageView1"
+            android:layout_gravity="left"
+            android:onClick="play"/>
+
+    </LinearLayout>
+
+</LinearLayout>

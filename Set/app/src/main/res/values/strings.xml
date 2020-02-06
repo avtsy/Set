@@ -1,0 +1,87 @@
+
+
+    <resources>
+        <string name="app_name">SET</string>
+        <string name="set">מצאת סט!</string>
+        <string name="notset">זה בכלל לא סט</string>
+        <string name="noset1">באמת אין סט...</string>
+        <string name="noset2">בואו נוסיף קלפים</string>
+        <string name="already">כבר יש 15 קלפים</string>
+        <string name="over">זהו, נגמרו הקלפים בחפיסה</string>
+        <string name="end1">המשחק הסתיים!</string>
+        <string name="end2">אין עוד סטים</string>
+        <string name="end3">זמנכם תם, המשחק הסתיים</string>
+        <string name="rare1">זהו מצב נדיר</string>
+        <string name="rare2">אמנם נשארו קלפים רבים אך אין עוד סטים</string>
+        <string name="box">כמה קלפים נותרו בחפיסה</string>
+        <string name="sets">כמה סטים נמצאו</string>
+        <string name="shcoyech">כל הכבוד!!!</string>
+        <string name="sure_esc">אתם בטוחים שאתם רוצים לצאת?</string>
+        <string name="restart">אתם בטוחים שאתם רוצים להתחיל מחדש?</string>
+        <string name="yes">כן, בטח</string>
+        <string name="open_text">Set Enterprise INC. \nAmerica Favorite Card Game</string>
+        <string name="sound">\u0020אפקטים קוליים\u0020</string>
+        <string name="timer">\u0020טיימר\u0020</string>
+        <string name="clues">\u0020רמזים\u0020</string>
+        <string name="no">לאאאאא</string>
+        <string name="esc">יציאה מהאפליקציה</string>
+        <string name="backmain">חזרה לעמוד הראשי</string>
+        <string name="noclues">ביקשת בלי רמזים...</string>
+        <string name="hello">היי,</string>
+        <string name="scores">רשימת השיאים</string>
+        <string name="scores_sets">סטים</string>
+        <string name="clue">רמזים</string>
+        <string name="clock_toast">ניתן להסתיר ולהחזיר את שעון הטיימר במסך המשחק על ידי הקלקה עליו</string>
+        <string name="info1">עשית</string>
+        <string name="info2">תוך</string>
+        <string name="info3">דקות</string>
+        <string name="score1">שיאן</string>
+        <string name="info4">ו-</string>
+        <string name="add_score">קבעת שיא! הכנס שם: </string>
+        <string name="ok">OK</string>
+        <string name="deleteScores">כל השיאים נמחקו</string>
+        <string name="newgame">התחלנו משחק חדש. בהצלחה!</string>
+        <string name="abc"> אבגדהוזחטיכלמנסעפצקרשתןםףץך</string>
+
+        <string name="credits">
+        תודה רבה לצוות ה-QA המהמם שלי:
+\nשניאור, יודית, אלי, ריבּי, ארי ותמי
+\nעל העצות, הניתוח והתמיכה
+\nועל זה שאתם מוותרים לי לפעמים על המחשב,
+\nאפילו שעוד לא הגיע תורי... :)
+\n\nתודה לצוות שלנו: מירי, רחל, דינה, נעמה, רעות ומיכל
+\nוללומדה, ולתמ"\"ת, ולגוגל, ולכל מי ששכחתי
+    </string>
+
+        <string name="about">
+משחק זה פותח כפרויקט הסיום
+\nשל קורס אפליקציות במכון לומדה, ירושלים
+\n\nניסן ה"\'תשע"\"ז - מרץ 2017
+\n\nתיהנו :)
+    </string>
+
+        <string name="instructions">
+        הוראות משחק:
+\n\nסט הוא משחק קלפים, ובו יש 81 קלפים, שלכל אחד מהם ארבעה מאפיינים המתחלקים לשלוש אפשרויות שונות:
+\nצורות: מעוין, גל, אליפסה
+\nדגם מילוי הצורות: ריק, מפוספס, מלא
+\nצבע הצורות: אדום, ירוק, סגול
+\nמספר הצורות שעליו: 1, 2, 3
+\nחפיסת הקלפים מכילה קלף לכל שילוב אפשרי של המאפיינים הללו.
+\nמטרת המשחק היא למצוא סטים. שלושה קלפים יכולים להוות יחד סט אם הם מקיימים את הכלל הבא: עבור כל אחד מהמאפיינים בנפרד, שלושת הקלפים זהים זה לזה או שונים זה מזה. לדוגמה, שלושה קלפים שבכל אחד מהם מעוין אחד מלא בצבע שונה הם סט. דוגמה נוספת: שלושה קלפים שבכל אחד צורה אחרת, צבע אחר, אבל כולם מפוספסים ובכמות 1 – גם הם סט.
+\nאם לא נמצא סט בתוך 12 הקלפים, ניתן להוסיף שלושה קלפים נוספים.
+\nהמשחק נגמר כשלא נשארו עוד סטים.
+\n\nבהצלחה
+    </string>
+
+        <string name="wellcome">
+        תודה שהצטרפתם אלינו!
+\n\nחפשו סט בן שלושה קלפים והקישו עליהם.
+\nאם לא מצאתם, בחרו בהוספת קלפים.
+\nבכל שלב ניתן להתחיל מחדש, לחזור להגדרות או לצאת מהמשחק (לא מומלץ)
+\n\nבהצלחה!
+
+    </string>
+    </resources>
+
+

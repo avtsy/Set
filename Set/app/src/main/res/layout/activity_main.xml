@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wrap_all"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:orientation="vertical">
+
+
+    <!--2 upper buttons layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_layout"
+        android:orientation="horizontal"
+        android:background="@color/colorBg"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:layout_weight="1"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="140dip"
+                android:layout_height="110dip"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/slctr_tip"
+                android:onClick="getTip"
+                android:id="@+id/tip_btn"/>
+
+            <ImageView
+                android:layout_width="110dip"
+                android:layout_height="110dip"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/slctr_add_btns"
+                android:onClick="addCrd"
+                android:id="@+id/add_btn"
+                android:layout_gravity="right"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <!--cards layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightRed"
+        android:paddingBottom="2dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="20dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:id="@+id/cards_layout"/>
+
+    </LinearLayout>
+
+
+    <!--2 lower buttons layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="150dip"
+                android:layout_height="150dip"
+                android:src="@drawable/slctr_settings_btns"
+                android:onClick="goSettings"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/back_btn" />
+
+            <ImageView
+                android:layout_width="150dip"
+                android:layout_height="150dip"
+                android:src="@drawable/slctr_restart"
+                android:onClick="startAgain"
+                android:id="@+id/restrart_btn"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <!--strip down layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:id="@+id/timer"
+                android:text="00:00"
+                android:gravity="bottom"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:visibility="invisible"
+                android:onClick="switchClock" />
+
+            <TextView
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:background="@drawable/count_set"
+                android:id="@+id/set_counter"
+                android:text="0"
+                android:textSize="40dip"
+                android:textColor="@android:color/holo_purple"
+                android:gravity="center"
+                android:textAlignment="gravity"
+                android:onClick="setsCount"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/cards_counter"
+                android:layout_toStartOf="@+id/cards_counter" />
+
+            <TextView
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:background="@drawable/count_card"
+                android:id="@+id/cards_counter"
+                android:text="81"
+                android:onClick="cardsCount"
+                android:textSize="40dip"
+                android:gravity="center"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+
